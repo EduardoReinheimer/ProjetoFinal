@@ -84,7 +84,7 @@ _[Ss]cripts
 /bazel-out
 
 # dependencies
-/node_modules
+/frontEnd/node_modules/
 
 # profiling files
 chrome-profiler-events*.json

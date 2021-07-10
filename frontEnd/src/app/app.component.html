@@ -12,6 +12,7 @@
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+      <!-- Menu Endereço -->
       <li nz-submenu nzOpen nzTitle="Endereço">
         <ul>
           <li nz-menu-item nzMatchRouter>
@@ -24,6 +25,30 @@
             <a routerLink="/logradouro">Logradouro</a>
           </li>
         </ul>
+      </li>
+      <!-- Veículo -->
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/veiculo">Veículo</a>
+      </li>
+      <!-- Menu Pessoa -->
+      <li nz-submenu nzOpen nzTitle="Pessoa">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/pessoaFisica">Pessoa Física</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/pessoaJuridica">Pessoa Jurídica</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/produto">Produto</a>
+      </li>
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/pedido">Pedido</a>
+      </li>
+      <li nz-menu-item nzMatchRouter>
+        <a routerLink="/agendamento">Agendamento</a>
       </li>
     </ul>
   </nz-sider>
